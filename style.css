@@ -68,8 +68,12 @@ main {
   .header-right{
     width: 30rem;
     margin-left: 15rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
+  }
+  .header-left{
+    width: 20rem;
+    margin-left: 15rem;
   }
   .image-area {
     display: flex;
