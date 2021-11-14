@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 body {
   background-color: rgb(240, 232, 232);
@@ -26,7 +26,7 @@ body {
   margin-bottom: 3rem;
 }
 .header-right {
-  margin-right:12rem;
+  margin-right: 12rem;
   font-weight: bold;
 }
 main {
@@ -60,28 +60,83 @@ main {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 575px) {
   .header {
     display: flex;
     flex-direction: column;
   }
-  .header-right{
+  .header-right {
     width: 30rem;
     margin-left: 15rem;
     margin-top: 2rem;
     text-align: center;
   }
-  .header-left{
+  .header-left {
     width: 20rem;
-    margin-left: 15rem;
+    margin-left: 8rem;
   }
   .image-area {
     display: flex;
     flex-direction: column;
   }
   .job {
-  transform: rotate(90deg) translate(-22.5rem, -14rem);
-  font-size: 0.7rem;
+    transform: rotate(90deg) translate(-20.5rem, -12rem);
+    font-size: 0.7rem;
+  }
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-right {
+    width: 30rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .header-left {
+    width: 20rem;
+    margin-left: 8rem;
+  }
+  .image-area {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+  .job {
+    transform: rotate(90deg) translate(-17rem, -8rem);
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-right {
+    width: 30rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .header-left {
+    width: 20rem;
+    margin-left: 8rem;
+  }
+  .image-area {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 3rem;
+    column-gap: 2rem;
+  }
+  .job {
+    transform: rotate(90deg) translate(-19rem, -10rem);
+    font-size: 0.7rem;
+  }
 }
 
