@@ -60,7 +60,7 @@ main {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -84,3 +84,4 @@ main {
   font-size: 0.7rem;
 }
 }
+
