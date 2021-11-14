@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  font-family: cursive;
+  font-family:'Courier New', Courier, monospace;
 }
 body {
   background-color: rgb(240, 232, 232);
@@ -60,7 +60,7 @@ main {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header {
     display: flex;
     flex-direction: column;
