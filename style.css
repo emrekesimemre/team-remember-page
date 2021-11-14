@@ -60,7 +60,7 @@ main {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ main {
     flex-direction: column;
   }
   .job {
-  transform: rotate(90deg) translate(-19rem, -11rem);
+  transform: rotate(90deg) translate(-22.5rem, -14rem);
   font-size: 0.7rem;
 }
 }
