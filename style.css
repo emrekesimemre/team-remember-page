@@ -18,125 +18,13 @@ body {
   height: 1.5rem;
   margin-top: 0.5rem;
 }
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-.header-right {
-  margin-right: 12rem;
-  font-weight: bold;
-}
-main {
-  margin: 0 10rem;
+.img-fluid{
+  box-shadow: 5px 5px 5px gray;
 }
 
-.image-area {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+.rotate {
+  transform: rotate(90deg);
+  margin-left: -20px;
+  margin-top: 30px;
+  font-size: x-small;
 }
-
-.image {
-  width: 18rem;
-  height: 23rem;
-  filter: drop-shadow(0.3rem 0.3rem 0.3rem gray);
-  border-radius: 0.3rem;
-  margin-bottom: 2rem;
-}
-
-.image1 {
-  margin-top: 4rem;
-}
-
-.job {
-  transform: rotate(90deg) translate(-14rem, -5rem);
-  font-size: 0.7rem;
-}
-.name {
-  font-weight: 600;
-  font-size: 1.2rem;
-}
-
-@media screen and (max-width: 575px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-  .header-right {
-    width: 30rem;
-    margin-left: 15rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  .header-left {
-    width: 20rem;
-    margin-left: 8rem;
-  }
-  .image-area {
-    display: flex;
-    flex-direction: column;
-  }
-  .job {
-    transform: rotate(90deg) translate(-20.5rem, -12rem);
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header-right {
-    width: 30rem;
-    margin-left: 15rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  .header-left {
-    width: 20rem;
-    margin-left: 8rem;
-  }
-  .image-area {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5rem;
-  }
-  .job {
-    transform: rotate(90deg) translate(-17rem, -8rem);
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header-right {
-    width: 30rem;
-    margin-left: 15rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
-  .header-left {
-    width: 20rem;
-    margin-left: 8rem;
-  }
-  .image-area {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 3rem;
-    column-gap: 2rem;
-  }
-  .job {
-    transform: rotate(90deg) translate(-19rem, -10rem);
-    font-size: 0.7rem;
-  }
-}
-
